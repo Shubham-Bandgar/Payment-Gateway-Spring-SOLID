@@ -12,24 +12,6 @@ REST API endpoints for testing via Postman
 
 Clean architecture and folder structure
 
-🏗️ Architecture Diagram
-                  +-----------------------+
-                  |   PaymentController   |
-                  +-----------------------+
-                             |
-                             v
-                  +-----------------------+
-                  |   PaymentProcessor    |  <--- Interface
-                  +-----------------------+
-                             ^
-     +------------------------+------------------------+
-     |                        |                        |
-+----------------+     +----------------+      +----------------+
-| CreditCardPayment |   | PaypalPayment  |      |  UpiPayment    |
-+----------------+     +----------------+      +----------------+
-
-
-
 
 ▶️ How to Run
 
